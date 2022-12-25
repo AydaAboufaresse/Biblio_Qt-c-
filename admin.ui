@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QDialog" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1213</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1191</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius: 80px;
+</string>
+   </property>
+   <widget class="QPushButton" name="deleteEmpButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>470</y>
+      <width>321</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#deleteEmpButton
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:black;	
+
+}
+#deleteEmpButton:hover
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:white;	
+	background:#333;
+}</string>
+    </property>
+    <property name="text">
+     <string>Supprimer </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/Images/icons8_Remove_User_Male_50px.png</normaloff>:/Images/icons8_Remove_User_Male_50px.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateEmpButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>410</y>
+      <width>321</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#updateEmpButton
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:black;
+}
+#updateEmpButton:hover
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:white;	
+	background:#333;
+}</string>
+    </property>
+    <property name="text">
+     <string>Modifier les informations d'un livre</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/Images/icons8_Registration_50px.png</normaloff>:/Images/icons8_Registration_50px.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addEmpButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>321</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#addEmpButton
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:black;
+}
+#addEmpButton:hover
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:white;	
+	background:#333;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ajouter des Nouveux Livres</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/Images/icons8_Add_User_Male_50px.png</normaloff>:/Images/icons8_Add_User_Male_50px.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1191</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:2, stop:0 rgba(158, 254, 222, 0.671), stop:1 rgba(177, 104, 245, 0.707));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>291</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Desktop/cosmetcis_image/da09915c774a24097eeab7d3fa22af48.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>50</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bibliothèque</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="livre">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>321</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#livre
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:black;
+}
+#livre:hover
+{
+	text-align:left;
+	padding-left:26px;
+	border:none;	
+	color:white;	
+	background:#333;
+}</string>
+    </property>
+    <property name="text">
+     <string>Les livres de notre Bibliotèque</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>160</y>
+      <width>771</width>
+      <height>471</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>deleteEmpButton</zorder>
+   <zorder>updateEmpButton</zorder>
+   <zorder>addEmpButton</zorder>
+   <zorder>label_3</zorder>
+   <zorder>livre</zorder>
+   <zorder>tableView</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
